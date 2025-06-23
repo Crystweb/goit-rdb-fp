@@ -129,7 +129,7 @@ DELIMITER ;
 
 ```sql
 SELECT
-![5.2.png](5.2.png)    id,
+    id,
     year,
     year_difference(year) AS years_diff
 FROM infectious_case;
