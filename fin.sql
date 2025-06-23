@@ -2,8 +2,6 @@
 CREATE SCHEMA IF NOT EXISTS pandemic;
 USE pandemic;
 
--- 2. Припускаємо, що ти вже імпортував CSV у таблицю infectious_cases через Import Wizard
-
 -- 2.1. Створення нормалізованих таблиць
 CREATE TABLE IF NOT EXISTS entity (
     id INT AUTO_INCREMENT PRIMARY KEY,
